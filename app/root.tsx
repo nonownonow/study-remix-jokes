@@ -52,7 +52,7 @@ export default function App () {
       </ul>
     </aside>
     <footer>Copyright</footer>
-    {process.env.NODE_ENV === 'development' ? <LiveReload/> : null}
+    {process.env.NODE_ENV === 'development' ? <LiveReload port={8003}/> : null}
     </body>
     </html>
   )

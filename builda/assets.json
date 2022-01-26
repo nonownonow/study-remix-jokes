@@ -1,0 +1,105 @@
+{
+  "version": "d1a9e825",
+  "entry": {
+    "module": "/builda/entry.client-7LOFN3NC.js",
+    "imports": [
+      "/builda/_shared/chunk-KZBBSISP.js",
+      "/builda/_shared/chunk-E7VMOUYL.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "module": "/builda/root-SY4DW56W.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/goods/testGoods": {
+      "id": "routes/goods/testGoods",
+      "parentId": "root",
+      "path": "goods/testGoods",
+      "module": "/builda/routes/goods/testGoods-2ON66C6M.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "index": true,
+      "module": "/builda/routes/index-W22ULRN2.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/jokes": {
+      "id": "routes/jokes",
+      "parentId": "root",
+      "path": "jokes",
+      "module": "/builda/routes/jokes-KW5IWGWF.js",
+      "imports": [
+        "/builda/_shared/chunk-SMZ7NZN3.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/jokes/$jokeId": {
+      "id": "routes/jokes/$jokeId",
+      "parentId": "routes/jokes",
+      "path": ":jokeId",
+      "module": "/builda/routes/jokes/$jokeId-S6UAMHUK.js",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/jokes/index": {
+      "id": "routes/jokes/index",
+      "parentId": "routes/jokes",
+      "index": true,
+      "module": "/builda/routes/jokes/index-L3JIXRSK.js",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/jokes/new": {
+      "id": "routes/jokes/new",
+      "parentId": "routes/jokes",
+      "path": "new",
+      "module": "/builda/routes/jokes/new-V6XJ2RPU.js",
+      "hasAction": true,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/login": {
+      "id": "routes/login",
+      "parentId": "root",
+      "path": "login",
+      "module": "/builda/routes/login-KUGD3EML.js",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "test": {
+      "id": "test",
+      "parentId": "root",
+      "path": "/test/routes/*",
+      "module": "/builda/test-N2RABOFE.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    }
+  },
+  "url": "/builda/manifest-D1A9E825.js"
+}
